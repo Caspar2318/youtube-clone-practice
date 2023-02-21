@@ -5,8 +5,8 @@ import { Sidebar, Videos } from "../components";
 import { fetchData } from "../utils/fetchData";
 
 const Feed = () => {
-  const [selectedCategory, setSelectedCategory] = useState("Home");
-  const [videos, setVideos] = useState([]);
+  const [selectedCategory, setSelectedCategory] = useState("New");
+  const [videos, setVideos] = useState(null);
 
   useEffect(() => {
     setVideos(null);
@@ -29,35 +29,26 @@ const Feed = () => {
           selectedCategory={selectedCategory}
           setSelectedCategory={setSelectedCategory}
         />
+
         <Typography
-          variant="body2"
           className="copyright"
-          sx={{
-            mt: 1.5,
-            color: "#fff",
-          }}
+          variant="body2"
+          sx={{ mt: 1.5, color: "#fff" }}
         >
           Copyright 2023 CxC Zone
         </Typography>
       </Box>
-      <Box
-        p={2}
-        sx={{
-          overflowY: "auto",
-          height: "90vh",
-          flex: 2,
-        }}
-      >
+
+      <Box p={2} sx={{ overflowY: "auto", height: "90vh", flex: 2 }}>
         <Typography
           variant="h4"
           fontWeight="bold"
           mb={2}
-          sx={{
-            color: "white",
-          }}
+          sx={{ color: "white" }}
         >
-          {selectedCategory} <span style={{ color: "#F31503" }}>videos</span>
+          {selectedCategory} <span style={{ color: "#FC1503" }}>videos</span>
         </Typography>
+
         <Videos videos={videos} />
       </Box>
     </Stack>

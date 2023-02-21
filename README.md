@@ -11,3 +11,5 @@ install RapidAPI Client extension in vsCode
 #fail to deploy as API encountered with 403 error
 
 not yet find a proper solution for it...
+
+Still good to have for code practice.

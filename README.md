@@ -1,4 +1,6 @@
-# youtube-clone-practice
+# CREATE A PERSONAL YOUTUBE WEBSITE~!
+
+# Already go live at:
 
 RapidAPI YouTube v3
 
@@ -8,6 +10,6 @@ install RapidAPI Client extension in vsCode
 
 #npm install --legacy-peer-deps
 
-#fail to deploy as API encountered with 403 error
+If find API 4xx problem or undefined or not found, need to check the key name inside .env file
 
-not yet find a proper solution for it...
+the key name must start with 'REACT_APP', e.g. 'REACT_APP_GOOGLE_API"

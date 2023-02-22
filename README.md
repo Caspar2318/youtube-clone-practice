@@ -1,6 +1,6 @@
 # CREATE A PERSONAL YOUTUBE WEBSITE~!
 
-# Already go live at:
+# Already go live at: https://my-video-zone.cxcspace.com/
 
 RapidAPI YouTube v3
 

@@ -12,4 +12,6 @@ install RapidAPI Client extension in vsCode
 
 If find API 4xx problem or undefined or not found, need to check the key name inside .env file
 
-not yet find a proper solution for it...
+the api key or environment variables name must start with 'REACT_APP'
+
+e.g. 'REACT_APP_GOOGLE_API"
